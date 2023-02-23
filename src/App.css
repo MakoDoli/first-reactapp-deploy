@@ -1,4 +1,4 @@
-h2,
+h1,
 .name-white {
   color: white;
   size: 22px;
@@ -7,7 +7,7 @@ h2,
   cursor: pointer;
 }
 
-h2:hover,
+h1:hover,
 .name-white:hover,
 .etherium p {
   color: #00fff8;

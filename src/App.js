@@ -15,7 +15,7 @@ function App() {
         </div>
 
         <div className="nft-heading">
-          <h2>Equilibrium #3429</h2>
+          <h1>Equilibrium #3429</h1>
         </div>
 
         <div className="nft-text">
