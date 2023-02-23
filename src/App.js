@@ -18,7 +18,7 @@ function App() {
           <h1>Equilibrium #3429</h1>
         </div>
 
-        <div className="nft-text">
+        <div className="nft-text another">
           <p>Our Equilibrium collection promotes balance and calm.</p>
         </div>
         <section>
