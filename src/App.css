@@ -1,38 +1,157 @@
-.App {
+h2,
+.name-white {
+  color: white;
+  size: 22px;
+  font-weight: 600;
+  padding-left: 3px;
+  cursor: pointer;
+}
+
+h2:hover,
+.name-white:hover,
+.etherium p {
+  color: #00fff8;
+}
+
+p {
+  color: #8bacd9;
+  size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  position: relative;
+  height: 20px;
+  width: 302px;
+  margin: auto;
+}
+
+.creator {
+  width: 302px;
+  height: 35px;
+  position: relative;
+}
+main {
+  width: 350px;
+  height: 596px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nft-container {
+  display: block;
+  width: 350px;
+  height: 596px;
+  border-radius: 15px;
+  background-color: hsl(216, 50%, 16%);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nft-img {
+  position: relative;
+  background-color: #00fff8;
+  width: 302px;
+  height: 302px;
+  margin: 24px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.static {
+  width: 302px;
+  height: 302px;
+  position: absolute;
+  left: 0;
+  border-radius: 8px;
+  z-index: 2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.static:hover {
+  opacity: 0.5;
+  z-index: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.active {
+  width: 44px;
+  height: 30px;
+  position: absolute;
+  top: 134px;
+  left: 130px;
+  z-index: 1;
 }
 
-.App-link {
-  color: #61dafb;
+.nft-heading {
+  width: 302px;
+  height: 28px;
+  margin: 0 24px 16px 24px;
+  text-align: left;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nft-text {
+  width: 302px;
+  height: 56px;
+  margin: 24px 24px 12px 24px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+}
+
+.eth-icon {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+}
+
+.etherium {
+  font-size: 16px;
+  width: 75px;
+  height: 20px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  left: 17px;
+}
+
+.clock-icon {
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  left: 200px;
+}
+
+.time-left {
+  display: inline-block;
+  position: absolute;
+  left: 225px;
+  font-weight: 400;
+}
+
+.line {
+  width: 302px;
+  margin: 22px auto 14px auto;
+  border: 0.1px solid #2e405a;
+}
+.creator-img {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 22px;
+}
+.creator-img img {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.creator-name {
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+  left: 72px;
+  font-weight: 400;
 }
